@@ -1,0 +1,31 @@
+header{
+    color: white;
+    background-color: #1192d3;
+    height: 120px;
+    display: inline-flex;
+    width: 100%;
+}
+
+h1{
+    text-align: left;
+    margin: 0px 5px 5px 5px;
+}
+
+.driveState{
+    padding: 25px 5px 5px 25px;
+    font-size: xx-large;
+}
+
+.home-button{
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background-color: #1192d3;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    align-content: center;
+    font-size: larger;
+    outline-style: auto;
+    outline-color: white;
+    outline-width: 20px;
+}

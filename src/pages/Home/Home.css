@@ -1,0 +1,17 @@
+.feature-button{
+    color: white;
+    background-color: #1192d3;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.feature-button:hover{
+    color: #1192d3 ;
+    background-color: white;
+}
+
+.features-list{
+    height: 100%;
+}
