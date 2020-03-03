@@ -1,6 +1,7 @@
 .feature-button{
-    color: white;
-    background-color: #1192d3;
+    color: greenyellow;
+    background-color: black;
+    border: 5px solid greenyellow;
     height: 200px;
     width: 100%;
     text-align: center;
@@ -8,8 +9,8 @@
 }
 
 .feature-button:hover{
-    color: #1192d3 ;
-    background-color: white;
+    color: black ;
+    background-color: greenyellow;
 }
 
 .features-list{
