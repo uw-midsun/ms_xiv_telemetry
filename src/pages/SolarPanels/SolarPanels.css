@@ -1,7 +1,7 @@
 .title{
     font-size: larger;
 }
-.cell{
+.s-cell{
     padding: 10px 10px 10px 10px;
     background-color: black;
     border: 2px solid greenyellow;
@@ -10,7 +10,7 @@
     height: 18vw;
 }
 
-.cell:hover{
+.s-cell:hover{
     background-color: greenyellow;
     color: black;
 }

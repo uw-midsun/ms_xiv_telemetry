@@ -14,7 +14,7 @@ class Cell extends React.Component{
     render(){
         return (
             <div>
-                <div className="cell">
+                <div className="b-cell">
                     <div>Cell {this.props.cellNum}</div>
                     <div>V: {this.props.voltage}</div>
                     <div>Temp: {this.props.temperature}</div>
