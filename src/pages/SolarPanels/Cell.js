@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import './Batteries.css';
+import './SolarPanels';
 
 class Cell extends React.Component{
     constructor(props){

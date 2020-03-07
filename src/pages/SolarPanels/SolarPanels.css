@@ -1,3 +1,20 @@
 .title{
     font-size: larger;
 }
+.cell{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    width: 9.5vw;
+    height: 18vw;
+}
+
+.cell:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.cell-row{
+    display: inline-flex;
+}
