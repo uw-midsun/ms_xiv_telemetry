@@ -38,8 +38,8 @@ class Batteries extends React.Component{
         let row2 = this.cellRow(12, 23);
         return (
             <div>
-                <div class="cell-row">{row1}</div>
-                <div class="cell-row">{row2}</div>
+                <div className="cell-row">{row1}</div>
+                <div className="cell-row">{row2}</div>
             </div>
         )
     }
