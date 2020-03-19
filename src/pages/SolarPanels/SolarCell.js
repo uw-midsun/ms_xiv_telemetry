@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-import './Batteries.css';
+import './SolarPanels.css';
 
-class Cell extends React.Component{
+class SolarCell extends React.Component{
     constructor(props){
         super(props);
         this.state = {}
@@ -14,7 +14,7 @@ class Cell extends React.Component{
     render(){
         return (
             <div>
-                <div className="b-cell">
+                <div className="s-cell">
                     <div>Cell {this.props.cellNum}</div>
                     <div>V: {this.props.voltage}</div>
                     <div>Temp: {this.props.temperature}</div>
@@ -24,4 +24,10 @@ class Cell extends React.Component{
     }
 }
 
-export default Cell;
+export default SolarCell;
+
+SolarCell.propTypes = {
+    cellNum: PropTypes.number,
+    voltage: PropTypes.number,
+    temperature: PropTypes.number
+}

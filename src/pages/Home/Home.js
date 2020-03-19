@@ -17,7 +17,7 @@ class Home extends React.Component{
                 <Link to="/Batteries/">
                     <button className="feature-button">Batteries</button>
                 </Link><br/>
-                <Link to="/SOlarPanels/">
+                <Link to="/SolarPanels/">
                     <button className="feature-button">Solar Panels</button>
                 </Link>
                 <Link to="/PowerDistribution/">

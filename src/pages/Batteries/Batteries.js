@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import Cell from "./Cell"
+import BatteryCell from "./BatteryCell"
 
 import './Batteries.css';
 
@@ -28,7 +27,7 @@ class Batteries extends React.Component{
         let row = []
         for (var i = startNum; i <= endNum; i++){
             let cell = this.state.cellData[i]
-            row.push(<Cell cellNum={cell.cellNum} voltage={cell.voltage} temperature={cell.temperature} ></Cell>)
+            row.push(<BatteryCell cellNum={cell.cellNum} voltage={cell.voltage} temperature={cell.temperature} key={i}></BatteryCell>)
         }
         return row
     }

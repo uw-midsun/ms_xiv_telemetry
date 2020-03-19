@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import SolarCell from './SolarCell';
 
-test('renders App', () => {
+test('renders Solar Cell', () => {
   const div = document.createElement("div");
-  ReactDOM.render(<App/>, div);
+  ReactDOM.render(<SolarCell cellNum={0} voltage={0} temperature={0}/>, div);
   ReactDOM.unmountComponentAtNode(div);
 });
