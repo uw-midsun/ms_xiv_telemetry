@@ -1,7 +1,7 @@
 .title{
     font-size: larger;
 }
-.s-cell{
+.s-cell-normal{
     padding: 10px 10px 10px 10px;
     background-color: black;
     border: 2px solid greenyellow;
@@ -10,10 +10,24 @@
     height: 18vw;
 }
 
-.s-cell:hover{
+.s-cell-normal:hover{
     background-color: greenyellow;
     color: black;
 }
+.s-cell-abnormal{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+    width: 9.5vw;
+    height: 18vw;
+}
+
+.s-cell-abnormal:hover{
+    background-color: red;
+    color: black;
+}
+
 
 .cell-row{
     display: inline-flex;

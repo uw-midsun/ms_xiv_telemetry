@@ -2,7 +2,7 @@
     font-size: larger;
 }
 
-.b-cell{
+.b-cell-normal{
     padding: 10px 10px 10px 10px;
     background-color: black;
     border: 2px solid greenyellow;
@@ -11,8 +11,22 @@
     height: 18vw;
 }
 
-.b-cell:hover{
+.b-cell-normal:hover{
     background-color: greenyellow;
+    color: black;
+}
+
+.b-cell-abnormal{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+    width: 6.8vw;
+    height: 18vw;
+}
+
+.b-cell-abnormal:hover{
+    background-color: red;
     color: black;
 }
 

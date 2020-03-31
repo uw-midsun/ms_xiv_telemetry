@@ -10,7 +10,8 @@ class SolarPanels extends React.Component{
         for(var i = 1; i <= 18; i++){
             cellData.push({
                 cellNum: i,
-                voltage: 0,
+                voltageIn: 0,
+                voltageOut: 0,
                 temperature: 0
             })
         }
@@ -23,7 +24,7 @@ class SolarPanels extends React.Component{
         let row = []
         for (var i = startNum; i <= endNum; i++){
             let cell = this.state.cellData[i]
-            row.push(<SolarCell cellNum={cell.cellNum} voltage={cell.voltage} temperature={cell.temperature} key={i}></SolarCell>)
+            row.push(<SolarCell cellNum={cell.cellNum} voltageIn={cell.voltageIn} voltageOut={cell.voltageOut} temperature={cell.temperature} key={i}></SolarCell>)
         }
         return row
     }
